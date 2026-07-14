@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "title": "Harison Rahajandraibe — Senior Full Stack TypeScript | Startup freelance",
+    "description": "Senior Full Stack TypeScript developer. From MVP to production for startups. €225/day. Available for freelance."
+  },
+  "nav": {
+    "projects": "Projects",
+    "skills": "Stack",
+    "offer": "Offer",
+    "contact": "Contact"
+  },
+  "hero": {
+    "pillars": {
+      "build": "Build",
+      "scale": "Scale",
+      "impact": "Impact"
+    },
+    "experience": "{years} years of experience",
+    "downloadCv": "Download CV",
+    "ctaPrimary": "Chat on WhatsApp",
+    "ctaSecondary": "Send an email",
+    "askYasuke": "Ask Yasuke"
+  },
+  "projects": {
+    "title": "Missions & projects",
+    "subtitle": "Fintech, HealthTech, GreenTech, e-commerce — senior ownership, client names anonymized."
+  },
+  "skills": {
+    "title": "Stack & skills",
+    "subtitle": "TypeScript end to end — front, back, AWS cloud."
+  },
+  "offer": {
+    "title": "Freelance for startups",
+    "subtitle": "I take you from MVP to a stable product in production.",
+    "rateLabel": "Day rate",
+    "rateValue": "€225 / day",
+    "availabilityLabel": "Availability"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "An idea, a brief, a question — I reply fast.",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "linkedin": "LinkedIn"
+  },
+  "theme": {
+    "light": "Light mode",
+    "dark": "Dark mode"
+  },
+  "locale": {
+    "fr": "FR",
+    "en": "EN",
+    "switchTo": "Français"
+  },
+  "yasuke": {
+    "name": "Yasuke",
+    "open": "Open Yasuke",
+    "close": "Close",
+    "placeholder": "Ask a question about Harison…",
+    "send": "Send",
+    "intro": "I know Harison’s background. Tap a suggestion or ask anything.",
+    "thinking": "Thinking…",
+    "error": "Something went wrong. Try again or contact Harison directly.",
+    "suggestions": {
+      "who": "Who are you?",
+      "experience": "Experience & missions",
+      "stack": "Tech stack",
+      "rate": "Day rate",
+      "availability": "Freelance availability",
+      "contact": "How can I reach you?"
+    }
+  }
+}

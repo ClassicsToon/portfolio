@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "title": "Harison Rahajandraibe — Senior Full Stack TypeScript | Freelance startups",
+    "description": "Développeur senior Full Stack TypeScript. Du MVP à la production pour startups. 225 €/jour. Disponible en freelance."
+  },
+  "nav": {
+    "projects": "Projets",
+    "skills": "Stack",
+    "offer": "Offre",
+    "contact": "Contact"
+  },
+  "hero": {
+    "pillars": {
+      "build": "Build",
+      "scale": "Scale",
+      "impact": "Impact"
+    },
+    "experience": "{years} ans d’expérience",
+    "downloadCv": "Télécharger le CV",
+    "ctaPrimary": "Discuter sur WhatsApp",
+    "ctaSecondary": "Envoyer un email",
+    "askYasuke": "Demander à Yasuke"
+  },
+  "projects": {
+    "title": "Missions & projets",
+    "subtitle": "Fintech, HealthTech, GreenTech, e-commerce — ownership senior, anonymisé côté client."
+  },
+  "skills": {
+    "title": "Stack & compétences",
+    "subtitle": "TypeScript de bout en bout — front, back, cloud AWS."
+  },
+  "offer": {
+    "title": "Freelance pour startups",
+    "subtitle": "Je vous accompagne du MVP jusqu’à un produit stable en production.",
+    "rateLabel": "Tarif journalier",
+    "rateValue": "225 € / jour",
+    "availabilityLabel": "Disponibilité"
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Une idée, un brief, une question — réponds vite.",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "linkedin": "LinkedIn"
+  },
+  "theme": {
+    "light": "Mode clair",
+    "dark": "Mode sombre"
+  },
+  "locale": {
+    "fr": "FR",
+    "en": "EN",
+    "switchTo": "English"
+  },
+  "yasuke": {
+    "name": "Yasuke",
+    "open": "Ouvrir Yasuke",
+    "close": "Fermer",
+    "placeholder": "Pose une question sur Harison…",
+    "send": "Envoyer",
+    "intro": "Je connais le parcours de Harison. Clique une suggestion ou pose ta question.",
+    "thinking": "Réflexion…",
+    "error": "Une erreur est survenue. Réessaie ou contacte Harison directement.",
+    "suggestions": {
+      "who": "Qui es-tu ?",
+      "experience": "Expérience & missions",
+      "stack": "Stack technique",
+      "rate": "Tarif journalier",
+      "availability": "Dispo freelance",
+      "contact": "Comment te contacter ?"
+    }
+  }
+}
