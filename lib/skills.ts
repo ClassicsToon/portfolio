@@ -69,4 +69,28 @@ export const skillGroups: SkillGroup[] = [
     label: { fr: "Messaging & observabilité", en: "Messaging & observability" },
     items: ["NATS", "RabbitMQ", "gRPC", "Socket.io", "Jaeger"],
   },
+  {
+    id: "communication",
+    label: { fr: "Communication", en: "Communication" },
+    items: ["Slack", "Discord", "Telegram"],
+  },
+  {
+    id: "collaboration",
+    label: {
+      fr: "Gestion de projet & IA",
+      en: "Project & AI tools",
+    },
+    items: [
+      "Jira",
+      "Cursor",
+      "Claude Code",
+      "AI agents",
+      "Hermes (agent autonome)",
+    ],
+  },
+  {
+    id: "design",
+    label: { fr: "Design & UI", en: "Design & UI" },
+    items: ["Figma", "Miro"],
+  },
 ];

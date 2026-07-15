@@ -17,7 +17,7 @@
     },
     "experience": "{years} ans d’expérience",
     "downloadCv": "Télécharger le CV",
-    "ctaPrimary": "Discuter sur WhatsApp",
+    "ctaPrimary": "Discuter sur LinkedIn",
     "ctaSecondary": "Envoyer un email",
     "askYasuke": "Demander à Yasuke"
   },
@@ -27,14 +27,16 @@
   },
   "skills": {
     "title": "Stack & compétences",
-    "subtitle": "TypeScript de bout en bout — front, back, cloud AWS."
+    "subtitle": "TypeScript de bout en bout — front, back, cloud AWS.",
+    "certificationLabel": "Certification"
   },
   "offer": {
     "title": "Freelance pour startups",
     "subtitle": "Je vous accompagne du MVP jusqu’à un produit stable en production.",
     "rateLabel": "Tarif journalier",
     "rateValue": "225 € / jour",
-    "availabilityLabel": "Disponibilité"
+    "availabilityLabel": "Disponibilité",
+    "cta": "Discuter sur LinkedIn"
   },
   "contact": {
     "title": "Contact",

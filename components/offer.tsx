@@ -1,13 +1,8 @@
 import type { Dictionary } from "@/lib/dictionary";
 import type { Locale } from "@/lib/i18n";
-import { profile, whatsappLink } from "@/lib/profile";
+import { profile } from "@/lib/profile";
 
 export function Offer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
-  const waMessage =
-    locale === "fr"
-      ? "Bonjour Harison, je suis intéressé par une mission freelance."
-      : "Hi Harison, I’m interested in a freelance engagement.";
-
   return (
     <section id="offer" className="scroll-mt-20 border-t border-border py-20 sm:py-28">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
@@ -41,12 +36,12 @@ export function Offer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
               ))}
             </ul>
             <a
-              href={whatsappLink(waMessage)}
+              href={profile.linkedin}
               target="_blank"
               rel="noopener noreferrer"
               className="cut-transition mt-8 inline-flex h-12 items-center bg-accent px-6 text-sm font-semibold text-white hover:brightness-110"
             >
-              WhatsApp
+              {dict.offer.cta}
             </a>
           </div>
         </div>

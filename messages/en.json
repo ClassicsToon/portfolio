@@ -17,7 +17,7 @@
     },
     "experience": "{years} years of experience",
     "downloadCv": "Download CV",
-    "ctaPrimary": "Chat on WhatsApp",
+    "ctaPrimary": "Connect on LinkedIn",
     "ctaSecondary": "Send an email",
     "askYasuke": "Ask Yasuke"
   },
@@ -27,14 +27,16 @@
   },
   "skills": {
     "title": "Stack & skills",
-    "subtitle": "TypeScript end to end — front, back, AWS cloud."
+    "subtitle": "TypeScript end to end — front, back, AWS cloud.",
+    "certificationLabel": "Certification"
   },
   "offer": {
     "title": "Freelance for startups",
     "subtitle": "I take you from MVP to a stable product in production.",
     "rateLabel": "Day rate",
     "rateValue": "€225 / day",
-    "availabilityLabel": "Availability"
+    "availabilityLabel": "Availability",
+    "cta": "Connect on LinkedIn"
   },
   "contact": {
     "title": "Contact",

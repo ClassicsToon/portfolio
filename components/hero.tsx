@@ -3,16 +3,11 @@
 import Image from "next/image";
 import type { Dictionary } from "@/lib/dictionary";
 import type { Locale } from "@/lib/i18n";
-import { profile, whatsappLink } from "@/lib/profile";
+import { profile } from "@/lib/profile";
 
 const CV_HREF = "/cv/cv.pdf";
 
 export function Hero({ locale, dict }: { locale: Locale; dict: Dictionary }) {
-  const waMessage =
-    locale === "fr"
-      ? "Bonjour Harison, je souhaite discuter d’un projet."
-      : "Hi Harison, I’d like to discuss a project.";
-
   const experience = dict.hero.experience.replace(
     "{years}",
     String(profile.yearsExperience),
@@ -81,7 +76,7 @@ export function Hero({ locale, dict }: { locale: Locale; dict: Dictionary }) {
 
         <div className="mt-8 flex flex-wrap gap-3">
           <a
-            href={whatsappLink(waMessage)}
+            href={profile.linkedin}
             target="_blank"
             rel="noopener noreferrer"
             className="cut-transition inline-flex h-12 items-center justify-center bg-accent px-6 text-sm font-semibold text-white hover:brightness-110"

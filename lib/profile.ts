@@ -27,6 +27,12 @@ export const profile = {
   linkedin:
     "https://www.linkedin.com/in/harison-rahajandraibe-5387311ba/",
   photo: "/photo.jpg",
+  certifications: [
+    {
+      name: "AWS Certified AI Practitioner",
+      url: "https://www.linkedin.com/in/harison-rahajandraibe-5387311ba/overlay/Certifications/1609782290/treasury/?profileId=ACoAADMCcLwBRlxP22opdqND7irqIFFnCGyc21g",
+    },
+  ],
   strengths: {
     fr: [
       "Lead & senior sur Fintech, HealthTech, GreenTech",

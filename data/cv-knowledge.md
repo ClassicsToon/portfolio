@@ -30,6 +30,7 @@ Do not invent facts outside this file. If something is not here, say you don't k
 ## Certifications & programs
 
 - AWS Certified Cloud Practitioner — 13 February 2025
+- AWS Certified AI Practitioner — LinkedIn: https://www.linkedin.com/in/harison-rahajandraibe-5387311ba/overlay/Certifications/1609782290/treasury/?profileId=ACoAADMCcLwBRlxP22opdqND7irqIFFnCGyc21g
 - YALI — Business Entrepreneurship — May–June 2024 (Online, Pretoria, South Africa)
 - Zafy Tody & Miary Digital — Startup tech financing (PIC & World Bank) — Feb 2023 – present (Antananarivo)
 - SPRINT 6 & INCO — Startup program — June 2024 – present (Online, Casablanca, Morocco)
