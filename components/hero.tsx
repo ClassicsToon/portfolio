@@ -98,7 +98,7 @@ export function Hero({ locale, dict }: { locale: Locale; dict: Dictionary }) {
           </a>
           <button
             type="button"
-            className="cut-transition inline-flex h-12 items-center justify-center border border-transparent px-4 text-sm font-medium text-text-muted hover:text-accent"
+            className="cut-transition inline-flex h-12 items-center justify-center border border-accent bg-surface/70 px-6 text-sm font-semibold text-accent backdrop-blur-sm hover:bg-accent hover:text-white"
             onClick={() => {
               window.dispatchEvent(new CustomEvent("yasuke:open"));
             }}

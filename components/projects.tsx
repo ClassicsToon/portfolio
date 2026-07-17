@@ -1,6 +1,6 @@
 import type { Dictionary } from "@/lib/dictionary";
 import type { Locale } from "@/lib/i18n";
-import { projectCopy, projects } from "@/lib/projects";
+import { getProjectsChronological, projectCopy } from "@/lib/projects";
 
 export function Projects({
   locale,
@@ -9,6 +9,8 @@ export function Projects({
   locale: Locale;
   dict: Dictionary;
 }) {
+  const ordered = getProjectsChronological();
+
   return (
     <section id="projects" className="scroll-mt-20 border-t border-border py-20 sm:py-28">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
@@ -17,14 +19,24 @@ export function Projects({
         </h2>
         <p className="mt-3 max-w-2xl text-text-muted">{dict.projects.subtitle}</p>
 
-        <ul className="mt-12 divide-y divide-border border-y border-border">
-          {projects.map((project) => {
+        <ul className="relative mt-12 border-y border-border">
+          <span
+            className="absolute bottom-0 left-[5px] top-0 w-px bg-border sm:left-[7px]"
+            aria-hidden
+          />
+          {ordered.map((project) => {
             const copy = projectCopy(project, locale);
             return (
               <li
                 key={project.id}
-                className="grid gap-4 py-8 sm:grid-cols-[minmax(0,1fr)_minmax(0,1.4fr)] sm:gap-10"
+                className="relative grid gap-4 border-b border-border py-8 pl-8 last:border-b-0 sm:grid-cols-[minmax(0,1fr)_minmax(0,1.4fr)] sm:gap-10 sm:pl-10"
               >
+                <span
+                  className="absolute left-0 top-10 flex h-3 w-3 items-center justify-center sm:top-11"
+                  aria-hidden
+                >
+                  <span className="h-2.5 w-2.5 rounded-full bg-accent ring-4 ring-background" />
+                </span>
                 <div>
                   <p className="text-xs font-semibold uppercase tracking-[0.16em] text-accent">
                     {copy.sector}

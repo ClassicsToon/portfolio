@@ -20,6 +20,9 @@ export const emphasizedSkillItems = new Set([
   "NestJS",
   "GraphQL",
   "Docker",
+  "RAG",
+  "MCP",
+  "Agents IA",
 ]);
 
 export function isEmphasizedSkill(item: string) {
@@ -41,17 +44,41 @@ export const skillGroups: SkillGroup[] = [
   {
     id: "frontend",
     label: { fr: "Front-end", en: "Front-end" },
-    items: ["React", "Next.js", "Redux", "Material UI", "React Native", "Storybook"],
+    items: [
+      "React",
+      "Next.js",
+      "Redux",
+      "Material UI",
+      "React Native",
+      "Storybook",
+    ],
   },
   {
     id: "backend",
     label: { fr: "Back-end", en: "Back-end" },
-    items: ["Node.js", "NestJS", "Express", "Fastify", "GraphQL", "REST", "Apollo Server"],
+    items: [
+      "Node.js",
+      "NestJS",
+      "Express",
+      "Fastify",
+      "GraphQL",
+      "REST",
+      "Apollo Server",
+    ],
   },
   {
     id: "data",
     label: { fr: "Données", en: "Data" },
-    items: ["PostgreSQL", "MySQL", "MongoDB", "Prisma", "TypeORM", "Redis", "Elasticsearch"],
+    items: [
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "Prisma",
+      "TypeORM",
+      "Redis",
+      "Elasticsearch",
+      "Qdrant",
+    ],
   },
   {
     id: "cloud",
@@ -71,20 +98,24 @@ export const skillGroups: SkillGroup[] = [
   },
   {
     id: "communication",
-    label: { fr: "Communication", en: "Communication" },
-    items: ["Slack", "Discord", "Telegram"],
+    label: {
+      fr: "Communication & Gestion de projet",
+      en: "Communication & Project management",
+    },
+    items: ["Slack", "Discord", "Telegram", "Jira"],
   },
   {
     id: "collaboration",
     label: {
-      fr: "Gestion de projet & IA",
-      en: "Project & AI tools",
+      fr: "IA & Agents IA",
+      en: "AI & AI agents",
     },
     items: [
-      "Jira",
+      "RAG",
+      "MCP",
+      "Agents IA",
       "Cursor",
       "Claude Code",
-      "AI agents",
       "Hermes (agent autonome)",
     ],
   },

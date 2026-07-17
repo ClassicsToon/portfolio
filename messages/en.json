@@ -43,7 +43,8 @@
     "subtitle": "An idea, a brief, a question — I reply fast.",
     "whatsapp": "WhatsApp",
     "email": "Email",
-    "linkedin": "LinkedIn"
+    "linkedin": "LinkedIn",
+    "linkedinCta": "View LinkedIn profile"
   },
   "theme": {
     "light": "Light mode",
