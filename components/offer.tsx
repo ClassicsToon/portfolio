@@ -4,7 +4,10 @@ import { profile } from "@/lib/profile";
 
 export function Offer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
   return (
-    <section id="offer" className="scroll-mt-20 border-t border-border py-20 sm:py-28">
+    <section
+      id="offer"
+      className="scroll-mt-20 border-t border-border py-20 sm:py-28"
+    >
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <h2 className="font-[family-name:var(--font-syne)] text-3xl font-bold tracking-tight text-text-main sm:text-4xl">
           {dict.offer.title}
@@ -12,14 +15,14 @@ export function Offer({ locale, dict }: { locale: Locale; dict: Dictionary }) {
         <p className="mt-3 max-w-2xl text-text-muted">{dict.offer.subtitle}</p>
 
         <div className="mt-12 grid gap-10 border-t border-border pt-10 sm:grid-cols-2">
-          <div>
+          {/* <div>
             <p className="text-xs font-semibold uppercase tracking-[0.16em] text-text-muted">
               {dict.offer.rateLabel}
             </p>
             <p className="mt-2 font-[family-name:var(--font-syne)] text-4xl font-bold text-text-main sm:text-5xl">
               {dict.offer.rateValue}
             </p>
-          </div>
+          </div> */}
           <div>
             <p className="text-xs font-semibold uppercase tracking-[0.16em] text-text-muted">
               {dict.offer.availabilityLabel}
