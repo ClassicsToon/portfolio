@@ -96,7 +96,7 @@ export function Hero({ locale, dict }: { locale: Locale; dict: Dictionary }) {
           >
             {dict.hero.downloadCv}
           </a>
-          <button
+          {/* <button
             type="button"
             className="cut-transition inline-flex h-12 items-center justify-center border border-accent bg-surface/70 px-6 text-sm font-semibold text-accent backdrop-blur-sm hover:bg-accent hover:text-white"
             onClick={() => {
@@ -104,7 +104,7 @@ export function Hero({ locale, dict }: { locale: Locale; dict: Dictionary }) {
             }}
           >
             {dict.hero.askYasuke} →
-          </button>
+          </button> */}
         </div>
       </div>
     </section>

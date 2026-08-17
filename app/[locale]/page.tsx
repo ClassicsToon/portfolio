@@ -6,7 +6,7 @@ import { Offer } from "@/components/offer";
 import { Projects } from "@/components/projects";
 import { SiteHeader } from "@/components/site-header";
 import { Skills } from "@/components/skills";
-import { YasukeChat } from "@/components/yasuke-chat";
+// import { YasukeChat } from "@/components/yasuke-chat";
 import { getDictionary } from "@/lib/dictionary";
 import { isLocale, locales, type Locale } from "@/lib/i18n";
 import { profile } from "@/lib/profile";
@@ -127,7 +127,7 @@ export default async function LocaleHomePage({ params }: Props) {
         <Offer locale={locale} dict={dict} />
         <Contact locale={locale} dict={dict} />
       </main>
-      <YasukeChat locale={locale} dict={dict} />
+      {/* <YasukeChat locale={locale} dict={dict} /> */}
     </>
   );
 }
