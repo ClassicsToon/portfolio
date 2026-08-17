@@ -12,6 +12,37 @@ export type Project = {
   endYear: number | null;
 };
 
+export type FeaturedProject = {
+  id: string;
+  name: string;
+  url: string;
+  image: string;
+  tagline: { fr: string; en: string };
+};
+
+export const featuredProjects: FeaturedProject[] = [
+  {
+    id: "zion",
+    name: "Zion",
+    url: "https://zion.mg",
+    image: "/projects/zion.png",
+    tagline: {
+      fr: "Marketplace e-commerce — produits Vita Malagasy.",
+      en: "E-commerce marketplace — Vita Malagasy products.",
+    },
+  },
+  {
+    id: "rockli",
+    name: "RockLi",
+    url: "https://rockli.app",
+    image: "/projects/rockli.png",
+    tagline: {
+      fr: "App mobile — trouve un terrain près de chez toi.",
+      en: "Mobile app — find a sports field near you.",
+    },
+  },
+];
+
 export const projects: Project[] = [
   {
     id: "greentech",

@@ -1,6 +1,11 @@
+import Image from "next/image";
 import type { Dictionary } from "@/lib/dictionary";
 import type { Locale } from "@/lib/i18n";
-import { getProjectsChronological, projectCopy } from "@/lib/projects";
+import {
+  featuredProjects,
+  getProjectsChronological,
+  projectCopy,
+} from "@/lib/projects";
 
 export function Projects({
   locale,
@@ -18,6 +23,45 @@ export function Projects({
           {dict.projects.title}
         </h2>
         <p className="mt-3 max-w-2xl text-text-muted">{dict.projects.subtitle}</p>
+
+        <p className="mt-12 text-xs font-semibold uppercase tracking-[0.16em] text-accent">
+          {dict.projects.featured}
+        </p>
+        <ul className="mt-4 grid gap-6 sm:grid-cols-2">
+          {featuredProjects.map((project) => (
+            <li key={project.id}>
+              <a
+                href={project.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cut-transition group flex h-full flex-col border border-border bg-surface hover:border-accent"
+              >
+                <div className="relative aspect-[16/10] overflow-hidden border-b border-border bg-background">
+                  <Image
+                    src={project.image}
+                    alt={project.name}
+                    fill
+                    className="object-cover object-top"
+                    sizes="(max-width: 640px) 100vw, 50vw"
+                  />
+                </div>
+                <div className="flex flex-1 flex-col gap-2 p-5">
+                  <div className="flex items-baseline justify-between gap-3">
+                    <h3 className="font-[family-name:var(--font-syne)] text-xl font-semibold text-text-main">
+                      {project.name}
+                    </h3>
+                    <span className="cut-transition shrink-0 text-sm text-text-muted group-hover:text-accent">
+                      {dict.projects.visit} →
+                    </span>
+                  </div>
+                  <p className="text-sm leading-relaxed text-text-muted">
+                    {project.tagline[locale]}
+                  </p>
+                </div>
+              </a>
+            </li>
+          ))}
+        </ul>
 
         <ul className="relative mt-12 border-y border-border">
           <span

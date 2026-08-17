@@ -23,7 +23,9 @@
   },
   "projects": {
     "title": "Missions & projects",
-    "subtitle": "Fintech, HealthTech, GreenTech, e-commerce — senior ownership, client names anonymized."
+    "subtitle": "Fintech, HealthTech, GreenTech, e-commerce — senior ownership, client names anonymized.",
+    "featured": "Products",
+    "visit": "Visit site"
   },
   "skills": {
     "title": "Stack & skills",
